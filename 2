@@ -1,0 +1,18 @@
+#include <iostream> // Incluye la librería iostream para entrada/salida
+
+int main() { // Función principal del programa
+    float lado; // Declara una variable flotante para almacenar el lado del cuadrado
+
+    // Solicita al usuario que ingrese el lado del cuadrado
+    std::cout << "Ingrese el lado del cuadrado: ";
+    // Lee el valor ingresado por el usuario y lo almacena en la variable 'lado'
+    std::cin >> lado;
+
+    // Calcula el perímetro multiplicando el lado por 4
+    float perimetro = lado * 4;
+
+    // Muestra el perímetro calculado en la pantalla
+    std::cout << "El perímetro del cuadrado es: " << perimetro << std::endl;
+
+    return 0; // Indica que el programa finalizó correctamente
+}
