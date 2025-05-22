@@ -1,0 +1,19 @@
+#include <iostream>
+
+int main() {
+    float precio;
+    int cantidad; // La cantidad suele ser un número entero
+    float total_a_pagar;
+
+    std::cout << "Ingrese el precio del artículo: ";
+    std::cin >> precio;
+
+    std::cout << "Ingrese la cantidad que lleva el cliente: ";
+    std::cin >> cantidad;
+
+    total_a_pagar = precio * cantidad;
+
+    std::cout << "El cliente debe abonar: " << total_a_pagar << std::endl;
+
+    return 0;
+}
