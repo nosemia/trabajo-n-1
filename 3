@@ -1,0 +1,24 @@
+#include <iostream> // Incluye la librería iostream para entrada/salida
+
+int main() { // Función principal del programa
+    float base; // Declara una variable flotante para almacenar la base del triángulo
+    float altura; // Declara una variable flotante para almacenar la altura del triángulo
+
+    // Muestra un texto pidiendo la base del triángulo
+    std::cout << "Ingrese la base del triangulo: ";
+    // Lee el valor ingresado por el usuario y lo almacena en la variable 'base'
+    std::cin >> base;
+
+    // Muestra un texto pidiendo la altura del triángulo
+    std::cout << "Ingrese la altura del triangulo: ";
+    // Lee el valor ingresado por el usuario y lo almacena en la variable 'altura'
+    std::cin >> altura;
+
+    // Calcula el área del triángulo usando la fórmula (base * altura) / 2
+    float area = (base * altura) / 2;
+
+    // Muestra el área calculada en la pantalla
+    std::cout << "El area del triangulo es: " << area << std::endl;
+
+    return 0; // Indica que el programa finalizó correctamente
+}
